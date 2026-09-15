@@ -70,17 +70,25 @@ us-college-major-roi/
 
 ## How to Run | 运行方式
 
-**Option 1: Google Colab**  
+### Option 1: Google Colab (Recommended)
 Click the badge at the top, or upload `analysis.ipynb` to [colab.research.google.com](https://colab.research.google.com).
 
-**Option 2: Local Jupyter**
-
+### Option 2: Local Jupyter
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+2. Launch the notebook:
+```bash
 jupyter notebook analysis.ipynb
-requirements.txt:
+```
+
+### requirements.txt
+```text
 pandas
 numpy
 matplotlib
 seaborn
 jupyter
+```
