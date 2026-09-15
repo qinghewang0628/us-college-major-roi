@@ -58,15 +58,18 @@ Exploratory data analysis (EDA) of U.S. college major salary, student debt, and 
 - **Polarization**: returns across majors are strongly polarized — some fields combine high salary with low debt, others combine low salary with high debt.
 
 ## Files | 文件结构
+
+```text
 us-college-major-roi/
-├── analysis.ipynb # Main notebook
-├── cleaned_bachelor_data.csv # Cleaned dataset
+├── analysis.ipynb                # Main notebook
+├── cleaned_bachelor_data.csv     # Cleaned dataset
 ├── requirements.txt
 ├── README.md
 └── images/
-├── 01_top_salary_majors.png
-├── 02_earnings_vs_debt.png
-└── 03_ai_vs_salary.png
+    ├── 01_top_salary_majors.png
+    ├── 02_earnings_vs_debt.png
+    └── 03_ai_vs_salary.png
+```
 
 ## How to Run | 运行方式
 
